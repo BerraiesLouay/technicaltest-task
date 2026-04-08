@@ -9,7 +9,7 @@ This is for the technical test purpose.
 
 ### Setup
 
-1. Install dependencies:
+1. Install backend dependencies:
 ```bash
 cd backend
 npm install
@@ -17,7 +17,21 @@ npm install
 
 2. Create a `.env` file in the `backend` directory with the required environment variables:
 
-3. Update the `.env` file with your actual values
+3. Run the backend:
+```bash
+npx tsx src/server.ts
+```
+
+4. Install frontend dependencies:
+```bash
+cd frontend
+npm install
+```
+
+5. Run the frontend:
+```bash
+npm run dev
+```
 
 ## Environment Variables
 
