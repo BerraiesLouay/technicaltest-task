@@ -3,7 +3,7 @@ import { useTickets } from '../services/DisplayTickets';
 import '../styles/App.css';
 
 export default function TicketDashboard() {
-  const { tickets, loading, error } = useTickets();
+  const { tickets, loading, error, refresh } = useTickets();
 
   if (loading) return <p>Loading tickets...</p>;
   if (error) return <p>Error: {error}</p>;
@@ -13,7 +13,7 @@ export default function TicketDashboard() {
       <h1 className="ticket-subject">Zendesk CC Dashboard</h1>      
       <div className="ticket-grid">
         {tickets.map((ticket) => (
-          <TicketCard key={ticket.id} ticket={ticket} />
+          <TicketCard key={ticket.id} ticket={ticket} onRefresh={refresh}/>
         ))}
       </div>
     </div>

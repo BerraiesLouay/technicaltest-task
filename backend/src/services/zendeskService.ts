@@ -69,7 +69,7 @@ export async function removeUserFromCC(ticketId: string) {
   const payload = {
     ticket: {
       email_ccs: [
-        { user_id: USER_ID, action: "DELETE" }
+        { user_id: Number(USER_ID), action: "delete" }
       ]
     }
   };
