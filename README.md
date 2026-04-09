@@ -2,6 +2,8 @@
 
 This is for the technical test purpose.
 
+NB: Currently the list of tickets is empty
+
 ## Docker
 
 
@@ -62,6 +64,7 @@ PORT=5000
 ZENDESK_BASE_URL=
 ZENDESK_OAUTH_TOKEN=
 TARGET_USER_ID=
+CORS_ORIGIN=
 ```
 
 ### Variable Descriptions

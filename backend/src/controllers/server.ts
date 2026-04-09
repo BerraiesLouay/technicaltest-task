@@ -48,6 +48,7 @@ app.put('/api/tickets/:id/remove', async (req, res) => {
     
     if (success) {
       await logging(TARGET_USER_ID);
+      await db.run('DELETE FROM ticket_cache WHERE id = ?', ['cached_list']);
       return res.json({ message: 'User successfully removed from CC' });
     } else {
       return res.status(400).json({ error: 'Zendesk update failed' });
