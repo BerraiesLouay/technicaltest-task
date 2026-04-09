@@ -1,6 +1,6 @@
 export async function deleteTicketCC(ticketId: string | number): Promise<boolean> {
   try {
-    const response = await fetch(`http://localhost:5000/api/tickets/${ticketId}/remove-cc`, {
+    const response = await fetch(`http://localhost:5000/api/tickets/${ticketId}/remove`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

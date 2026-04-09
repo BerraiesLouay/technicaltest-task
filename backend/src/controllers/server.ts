@@ -9,7 +9,11 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT;
 const TARGET_USER_ID = process.env.TARGET_USER_ID;
-app.use(cors());
+const CORS_ORIGIN = process.env.CORS_ORIGIN
+const corsOptions = {
+  origin: CORS_ORIGIN
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get('/api/tickets', async (req, res) => {
@@ -30,12 +34,12 @@ app.post('/api/tickets/:id/remove', async (req, res) => {
 
   try {
     const db = await getDb();
-    const globalExceeded = await isGlobalLimitExceeded(db, 60000);
+    const globalExceeded = await isGlobalLimitExceeded(db, Date.now() - 60000);
     if (globalExceeded) {
       return res.status(429).json({ error: 'Global rate limit reached (3/min)' });
     }
 
-    const userExceeded = await isUserLimitExceeded(db, TARGET_USER_ID, 60000);
+    const userExceeded = await isUserLimitExceeded(db, TARGET_USER_ID, Date.now() - 60000);
     if (userExceeded) {
       return res.status(429).json({ error: 'User rate limit reached (1/min)' });
     }
