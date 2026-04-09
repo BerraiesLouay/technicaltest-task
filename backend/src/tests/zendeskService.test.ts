@@ -4,7 +4,7 @@ const {
   isGlobalLimitExceeded, 
   isUserLimitExceeded, 
   logging 
-} = require('../zendeskService');
+} = require('../services/zendeskService');
     jest.mock('../db', () => ({    
     getDb: jest.fn().mockResolvedValue({
     get: jest.fn().mockResolvedValue(null),  

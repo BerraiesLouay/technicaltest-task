@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { fetchCCdTickets, isUserLimitExceeded, isGlobalLimitExceeded, logging, removeUserFromCC } from './zendeskService.js';
+import { fetchCCdTickets, isUserLimitExceeded, isGlobalLimitExceeded, logging, removeUserFromCC } from './services/zendeskService.js';
 import { getDb } from './db.js';
 
 dotenv.config();  
