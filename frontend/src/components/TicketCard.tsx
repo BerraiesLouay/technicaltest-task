@@ -1,3 +1,6 @@
+import '../styles/App.css';
+import '../styles/index.css';
+
 export default function TicketCard({ ticket, onClick }: any) {
   return (
     <div className="card" onClick={onClick} style={{ cursor: 'pointer' }}>
