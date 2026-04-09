@@ -1,7 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { fetchCCdTickets } from './zendeskService.js';
+import { fetchCCdTickets, isUserLimitExceeded, isGlobalLimitExceeded, logging, removeUserFromCC } from './zendeskService.js';
+import { getDb } from './db.js';
 
 dotenv.config();  
 
@@ -20,10 +21,40 @@ app.get('/api/tickets', async (req, res) => {
   }
 });
 
+app.post('/api/tickets/:id/remove', async (req, res) => {
+  const { id } = req.params;
+
+  if (!TARGET_USER_ID) {
+    return res.status(500).json({ error: 'Server configuration error: TARGET_USER_ID missing' });
+  }
+
+  try {
+    const db = await getDb();
+    const globalExceeded = await isGlobalLimitExceeded(db, 60000);
+    if (globalExceeded) {
+      return res.status(429).json({ error: 'Global rate limit reached (3/min)' });
+    }
+
+    const userExceeded = await isUserLimitExceeded(db, TARGET_USER_ID, 60000);
+    if (userExceeded) {
+      return res.status(429).json({ error: 'User rate limit reached (1/min)' });
+    }
+
+    const success = await removeUserFromCC(id);
+    
+    if (success) {
+      await logging(TARGET_USER_ID);
+      return res.json({ message: 'User successfully removed from CC' });
+    } else {
+      return res.status(400).json({ error: 'Zendesk update failed' });
+    }
+
+  } catch (error) {
+    console.error('Removal Error:', error);
+    return res.status(500).json({ error: 'Internal server error' });
+  }
+});
 
 app.listen(PORT, () => console.log(`Backend running at http://localhost:${PORT}`));
-
-module.exports = app;
-
 export default app;
 

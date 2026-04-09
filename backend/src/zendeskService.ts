@@ -54,3 +54,47 @@ export async function fetchCCdTickets() {
 }
 }   
 }
+export async function removeUserFromCC(ticketId: string) {
+  const url = `${BASE_URL}/tickets/${ticketId}.json`;
+  const payload = {
+    ticket: {
+      email_ccs: [
+        { user_id: USER_ID, action: "remove" }
+      ]
+    }
+  };
+
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers,
+    body: JSON.stringify(payload)
+  });
+
+  if (response.ok) {
+    const db = await getDb();
+    await db.run('DELETE FROM ticket_cache WHERE id = ?', ['cc_tickets_cache']);
+  }
+  return response.ok;
+}
+export async function isGlobalLimitExceeded(db: any, timestamp: number): Promise<boolean> {
+  const result = await db.get(
+    'SELECT COUNT(*) as count FROM logs WHERE action = "remove_cc" AND timestamp > ?',
+    [timestamp]
+  );
+  return result.count >= 3;
+}
+
+export async function isUserLimitExceeded(db: any, userId: string, timestamp: number): Promise<boolean> {
+  const result = await db.get(
+    'SELECT COUNT(*) as count FROM logs WHERE user_id = ? AND action = "remove_cc" AND timestamp > ?',
+    [userId, timestamp]
+  );
+  return result.count >= 1;
+}
+export async function logRemovalAction(userId: string) {
+  const db = await getDb();
+  await db.run(
+    'INSERT INTO logs (user_id, action, timestamp) VALUES (?, ?, ?)',
+    [userId, 'remove_cc', Date.now()]
+  );
+}
