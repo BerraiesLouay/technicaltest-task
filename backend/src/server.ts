@@ -23,3 +23,7 @@ app.get('/api/tickets', async (req, res) => {
 
 app.listen(PORT, () => console.log(`Backend running at http://localhost:${PORT}`));
 
+module.exports = app;
+
+export default app;
+
