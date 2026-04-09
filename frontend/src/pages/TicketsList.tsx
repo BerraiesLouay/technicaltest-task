@@ -1,42 +1,21 @@
-import { useEffect, useState } from 'react';
 import TicketCard from '../components/TicketCard';
-import type { TicketDTO } from '../types/ticket'; // Use your DTO!
+import { useTickets } from '../services/DisplayTickets';
 import '../styles/App.css';
 
 export default function TicketDashboard() {
-  const [tickets, setTickets] = useState<TicketDTO[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { tickets, loading, error } = useTickets();
 
-  useEffect(() => {
-    fetch('http://localhost:5000/api/tickets')
-      .then(res => res.json())
-      .then(data => {
-        // Since backend uses DTO, data is now a direct array
-        setTickets(data);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error("Fetch error:", err);
-        setLoading(false);
-      });
-  }, []);
+  if (loading) return <p>Loading tickets...</p>;
+  if (error) return <p>Error: {error}</p>;
 
   return (
     <div className="app-container">
       <h1 className="ticket-subject">Zendesk CC Dashboard</h1>      
-      {loading && <p>Loading tickets from server...</p>}
-      
-      {!loading && tickets.length > 0 && (
-        <div className="ticket-grid">
-          {tickets.map((ticket) => (
-            <TicketCard key={ticket.id} ticket={ticket} />
-          ))}
-        </div>
-      )}
-
-      {!loading && tickets.length === 0 && (
-        <p>No tickets found. Check backend terminal!</p>
-      )}
+      <div className="ticket-grid">
+        {tickets.map((ticket) => (
+          <TicketCard key={ticket.id} ticket={ticket} />
+        ))}
+      </div>
     </div>
   );
 }

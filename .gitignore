@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+backend/database.sqlite
+.vscode/
+dist/
+dist-ssr/
+*.log
+logs/
+coverage/
+*.local
+src/assets

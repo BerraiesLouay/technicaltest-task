@@ -13,6 +13,7 @@ This is for the technical test purpose.
 ```bash
 cd backend
 npm install
+npm ci
 ```
 
 2. Create a `.env` file in the `backend` directory with the required environment variables:

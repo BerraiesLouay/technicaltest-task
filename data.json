@@ -1,0 +1,2818 @@
+{
+  "tickets": [
+    {
+      "url": "https://con-leafworks2.zendesk.com/api/v2/tickets/1785.json",
+      "id": 1785,
+      "external_id": null,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {
+
+          },
+          "to": {
+
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2023-08-22T13:49:23Z",
+      "updated_at": "2024-08-21T07:05:12Z",
+      "generated_timestamp": 1724223912,
+      "type": null,
+      "subject": "Test Ticket For CC",
+      "raw_subject": "Test Ticket For CC",
+      "description": "Hi,\n\nIs a test ticket for CC list.\n\nBest",
+      "priority": "normal",
+      "status": "open",
+      "recipient": null,
+      "requester_id": 1902904595334,
+      "submitter_id": 378489066919,
+      "assignee_id": null,
+      "organization_id": 360028322272,
+      "group_id": 360007443019,
+      "collaborator_ids": [13226706601490, 13226804102802],
+      "follower_ids": [],
+      "email_cc_ids": [13226706601490, 13226804102802],
+      "forum_topic_id": null,
+      "problem_id": null,
+      "has_incidents": false,
+      "is_public": true,
+      "due_at": null,
+      "tags": [
+        "attachments_yes",
+        "interne_anfragen",
+        "locale_done"
+      ],
+      "custom_fields": [
+        {
+          "id": 360005920512,
+          "value": null
+        },
+        {
+          "id": 360014171231,
+          "value": null
+        },
+        {
+          "id": 360014546351,
+          "value": "577"
+        },
+        {
+          "id": 360014546371,
+          "value": "20"
+        },
+        {
+          "id": 360019711620,
+          "value": null
+        },
+        {
+          "id": 360019800120,
+          "value": null
+        },
+        {
+          "id": 360019844179,
+          "value": null
+        },
+        {
+          "id": 360019968980,
+          "value": null
+        },
+        {
+          "id": 360019969000,
+          "value": null
+        },
+        {
+          "id": 360019969100,
+          "value": null
+        },
+        {
+          "id": 360020078660,
+          "value": null
+        },
+        {
+          "id": 360020078680,
+          "value": null
+        },
+        {
+          "id": 360020097979,
+          "value": null
+        },
+        {
+          "id": 360020280879,
+          "value": null
+        },
+        {
+          "id": 360020280979,
+          "value": null
+        },
+        {
+          "id": 360020690199,
+          "value": null
+        },
+        {
+          "id": 360020726419,
+          "value": null
+        },
+        {
+          "id": 360021011239,
+          "value": null
+        },
+        {
+          "id": 360021056639,
+          "value": null
+        },
+        {
+          "id": 360021253780,
+          "value": null
+        },
+        {
+          "id": 360022621700,
+          "value": null
+        },
+        {
+          "id": 360022621740,
+          "value": null
+        },
+        {
+          "id": 360022621760,
+          "value": false
+        },
+        {
+          "id": 360022644740,
+          "value": null
+        },
+        {
+          "id": 360022644760,
+          "value": null
+        },
+        {
+          "id": 360022729279,
+          "value": null
+        },
+        {
+          "id": 360022750659,
+          "value": null
+        },
+        {
+          "id": 360022750679,
+          "value": null
+        },
+        {
+          "id": 360022814899,
+          "value": null
+        },
+        {
+          "id": 360023046100,
+          "value": null
+        },
+        {
+          "id": 360023046120,
+          "value": null
+        },
+        {
+          "id": 360023046140,
+          "value": null
+        },
+        {
+          "id": 360023147759,
+          "value": null
+        },
+        {
+          "id": 360023148079,
+          "value": null
+        },
+        {
+          "id": 360023373540,
+          "value": null
+        },
+        {
+          "id": 1900000551814,
+          "value": null
+        },
+        {
+          "id": 1900000551854,
+          "value": null
+        },
+        {
+          "id": 1900000551874,
+          "value": null
+        },
+        {
+          "id": 1900000623674,
+          "value": null
+        },
+        {
+          "id": 1900000624394,
+          "value": null
+        },
+        {
+          "id": 1900000950474,
+          "value": false
+        },
+        {
+          "id": 1900001280454,
+          "value": null
+        },
+        {
+          "id": 1900001632114,
+          "value": null
+        },
+        {
+          "id": 1900001732994,
+          "value": null
+        },
+        {
+          "id": 4419805578386,
+          "value": null
+        },
+        {
+          "id": 4419809436178,
+          "value": null
+        },
+        {
+          "id": 4427524267922,
+          "value": false
+        },
+        {
+          "id": 4775204328722,
+          "value": null
+        },
+        {
+          "id": 4792652564242,
+          "value": null
+        },
+        {
+          "id": 5031792994450,
+          "value": null
+        },
+        {
+          "id": 5080381154706,
+          "value": null
+        },
+        {
+          "id": 5080419542802,
+          "value": null
+        },
+        {
+          "id": 5080426575506,
+          "value": null
+        },
+        {
+          "id": 5325840861586,
+          "value": null
+        },
+        {
+          "id": 5325847086994,
+          "value": null
+        },
+        {
+          "id": 5325847087378,
+          "value": null
+        },
+        {
+          "id": 5325869018514,
+          "value": null
+        },
+        {
+          "id": 5325877864850,
+          "value": null
+        },
+        {
+          "id": 5326015294866,
+          "value": null
+        },
+        {
+          "id": 5326015295122,
+          "value": null
+        },
+        {
+          "id": 5326015295762,
+          "value": null
+        },
+        {
+          "id": 5326022814098,
+          "value": null
+        },
+        {
+          "id": 5326022814738,
+          "value": null
+        },
+        {
+          "id": 5366110490386,
+          "value": null
+        },
+        {
+          "id": 5366125338258,
+          "value": null
+        },
+        {
+          "id": 5366350625682,
+          "value": null
+        },
+        {
+          "id": 5370122052882,
+          "value": null
+        },
+        {
+          "id": 5370135990802,
+          "value": null
+        },
+        {
+          "id": 5528382389778,
+          "value": null
+        },
+        {
+          "id": 5528394501138,
+          "value": null
+        },
+        {
+          "id": 5545883980562,
+          "value": null
+        },
+        {
+          "id": 5546111529234,
+          "value": null
+        },
+        {
+          "id": 5546127256722,
+          "value": null
+        },
+        {
+          "id": 5577095407506,
+          "value": null
+        },
+        {
+          "id": 5577112038034,
+          "value": null
+        },
+        {
+          "id": 5579031763730,
+          "value": null
+        },
+        {
+          "id": 5607554358034,
+          "value": null
+        },
+        {
+          "id": 5702859964178,
+          "value": null
+        },
+        {
+          "id": 5725499626258,
+          "value": null
+        },
+        {
+          "id": 5725499626642,
+          "value": null
+        },
+        {
+          "id": 5725529406098,
+          "value": null
+        },
+        {
+          "id": 5725542869138,
+          "value": null
+        },
+        {
+          "id": 5725560897682,
+          "value": null
+        },
+        {
+          "id": 5766031211154,
+          "value": null
+        },
+        {
+          "id": 5877336790546,
+          "value": null
+        },
+        {
+          "id": 5934972822546,
+          "value": null
+        },
+        {
+          "id": 5979585670546,
+          "value": false
+        },
+        {
+          "id": 6137045367954,
+          "value": null
+        },
+        {
+          "id": 6293197845010,
+          "value": null
+        },
+        {
+          "id": 6293483315346,
+          "value": null
+        },
+        {
+          "id": 6301479644306,
+          "value": null
+        },
+        {
+          "id": 6451556407058,
+          "value": null
+        },
+        {
+          "id": 6487257169170,
+          "value": null
+        },
+        {
+          "id": 6554756314258,
+          "value": null
+        },
+        {
+          "id": 6800416714002,
+          "value": null
+        },
+        {
+          "id": 6839676072850,
+          "value": null
+        },
+        {
+          "id": 6861661123090,
+          "value": null
+        },
+        {
+          "id": 7259029569298,
+          "value": null
+        },
+        {
+          "id": 7259030037650,
+          "value": null
+        },
+        {
+          "id": 7259038947602,
+          "value": null
+        },
+        {
+          "id": 7259039904146,
+          "value": null
+        },
+        {
+          "id": 7259067522450,
+          "value": null
+        },
+        {
+          "id": 7259083092626,
+          "value": null
+        },
+        {
+          "id": 7259108456850,
+          "value": null
+        },
+        {
+          "id": 7259114887698,
+          "value": null
+        },
+        {
+          "id": 7259127112978,
+          "value": null
+        },
+        {
+          "id": 7259174888850,
+          "value": null
+        },
+        {
+          "id": 7408146303250,
+          "value": null
+        },
+        {
+          "id": 7597934336402,
+          "value": null
+        },
+        {
+          "id": 7659976124690,
+          "value": null
+        },
+        {
+          "id": 7659977814930,
+          "value": null
+        },
+        {
+          "id": 7732510584338,
+          "value": null
+        },
+        {
+          "id": 7732524566802,
+          "value": null
+        },
+        {
+          "id": 7732961616146,
+          "value": null
+        },
+        {
+          "id": 8202366181522,
+          "value": false
+        },
+        {
+          "id": 8202565143826,
+          "value": null
+        },
+        {
+          "id": 8385978181650,
+          "value": "de"
+        },
+        {
+          "id": 8399394009746,
+          "value": null
+        },
+        {
+          "id": 8962468753554,
+          "value": false
+        },
+        {
+          "id": 9044079644690,
+          "value": false
+        },
+        {
+          "id": 10007446885394,
+          "value": false
+        },
+        {
+          "id": 10106603984530,
+          "value": null
+        },
+        {
+          "id": 10409491319826,
+          "value": null
+        },
+        {
+          "id": 10409552954130,
+          "value": null
+        },
+        {
+          "id": 10690594926994,
+          "value": null
+        },
+        {
+          "id": 10690611017106,
+          "value": null
+        },
+        {
+          "id": 11407136335122,
+          "value": null
+        },
+        {
+          "id": 12478157056274,
+          "value": null
+        },
+        {
+          "id": 12480713312402,
+          "value": null
+        },
+        {
+          "id": 12706413872914,
+          "value": null
+        },
+        {
+          "id": 12709067709458,
+          "value": null
+        },
+        {
+          "id": 12709084226962,
+          "value": null
+        },
+        {
+          "id": 12715803681810,
+          "value": null
+        },
+        {
+          "id": 12778761726994,
+          "value": null
+        },
+        {
+          "id": 13802770437394,
+          "value": null
+        },
+        {
+          "id": 13802800310546,
+          "value": false
+        },
+        {
+          "id": 13803815788946,
+          "value": null
+        },
+        {
+          "id": 13984840697234,
+          "value": null
+        },
+        {
+          "id": 13984871235474,
+          "value": null
+        },
+        {
+          "id": 13984885130642,
+          "value": null
+        },
+        {
+          "id": 14150549742610,
+          "value": null
+        },
+        {
+          "id": 14150567584402,
+          "value": null
+        },
+        {
+          "id": 16334940921490,
+          "value": null
+        },
+        {
+          "id": 18319611095186,
+          "value": null
+        },
+        {
+          "id": 18319614191762,
+          "value": null
+        },
+        {
+          "id": 18319619432338,
+          "value": null
+        },
+        {
+          "id": 18319624089746,
+          "value": null
+        },
+        {
+          "id": 18319629265170,
+          "value": null
+        },
+        {
+          "id": 18321513303826,
+          "value": null
+        },
+        {
+          "id": 18321538227730,
+          "value": null
+        },
+        {
+          "id": 18321539873170,
+          "value": null
+        },
+        {
+          "id": 18321559846930,
+          "value": null
+        },
+        {
+          "id": 18321569709458,
+          "value": null
+        },
+        {
+          "id": 18321571292434,
+          "value": null
+        },
+        {
+          "id": 19158391221138,
+          "value": null
+        },
+        {
+          "id": 23992919960466,
+          "value": null
+        },
+        {
+          "id": 23993018154002,
+          "value": null
+        },
+        {
+          "id": 23993099605394,
+          "value": null
+        },
+        {
+          "id": 25693490512018,
+          "value": false
+        },
+        {
+          "id": 29364225382290,
+          "value": null
+        },
+        {
+          "id": 30824246501778,
+          "value": null
+        },
+        {
+          "id": 34295413322642,
+          "value": null
+        },
+        {
+          "id": 34295422752274,
+          "value": null
+        },
+        {
+          "id": 34295438629010,
+          "value": null
+        },
+        {
+          "id": 34295471959442,
+          "value": null
+        },
+        {
+          "id": 34295490197522,
+          "value": null
+        },
+        {
+          "id": 34295518379666,
+          "value": null
+        },
+        {
+          "id": 34295525485714,
+          "value": null
+        }
+      ],
+      "satisfaction_rating": {
+        "score": "unoffered"
+      },
+      "sharing_agreement_ids": [],
+      "custom_status_id": 1900001422234,
+      "encoded_id": "EGZDLD-KEG94",
+      "fields": [
+        {
+          "id": 360005920512,
+          "value": null
+        },
+        {
+          "id": 360014171231,
+          "value": null
+        },
+        {
+          "id": 360014546351,
+          "value": "577"
+        },
+        {
+          "id": 360014546371,
+          "value": "20"
+        },
+        {
+          "id": 360019711620,
+          "value": null
+        },
+        {
+          "id": 360019800120,
+          "value": null
+        },
+        {
+          "id": 360019844179,
+          "value": null
+        },
+        {
+          "id": 360019968980,
+          "value": null
+        },
+        {
+          "id": 360019969000,
+          "value": null
+        },
+        {
+          "id": 360019969100,
+          "value": null
+        },
+        {
+          "id": 360020078660,
+          "value": null
+        },
+        {
+          "id": 360020078680,
+          "value": null
+        },
+        {
+          "id": 360020097979,
+          "value": null
+        },
+        {
+          "id": 360020280879,
+          "value": null
+        },
+        {
+          "id": 360020280979,
+          "value": null
+        },
+        {
+          "id": 360020690199,
+          "value": null
+        },
+        {
+          "id": 360020726419,
+          "value": null
+        },
+        {
+          "id": 360021011239,
+          "value": null
+        },
+        {
+          "id": 360021056639,
+          "value": null
+        },
+        {
+          "id": 360021253780,
+          "value": null
+        },
+        {
+          "id": 360022621700,
+          "value": null
+        },
+        {
+          "id": 360022621740,
+          "value": null
+        },
+        {
+          "id": 360022621760,
+          "value": false
+        },
+        {
+          "id": 360022644740,
+          "value": null
+        },
+        {
+          "id": 360022644760,
+          "value": null
+        },
+        {
+          "id": 360022729279,
+          "value": null
+        },
+        {
+          "id": 360022750659,
+          "value": null
+        },
+        {
+          "id": 360022750679,
+          "value": null
+        },
+        {
+          "id": 360022814899,
+          "value": null
+        },
+        {
+          "id": 360023046100,
+          "value": null
+        },
+        {
+          "id": 360023046120,
+          "value": null
+        },
+        {
+          "id": 360023046140,
+          "value": null
+        },
+        {
+          "id": 360023147759,
+          "value": null
+        },
+        {
+          "id": 360023148079,
+          "value": null
+        },
+        {
+          "id": 360023373540,
+          "value": null
+        },
+        {
+          "id": 1900000551814,
+          "value": null
+        },
+        {
+          "id": 1900000551854,
+          "value": null
+        },
+        {
+          "id": 1900000551874,
+          "value": null
+        },
+        {
+          "id": 1900000623674,
+          "value": null
+        },
+        {
+          "id": 1900000624394,
+          "value": null
+        },
+        {
+          "id": 1900000950474,
+          "value": false
+        },
+        {
+          "id": 1900001280454,
+          "value": null
+        },
+        {
+          "id": 1900001632114,
+          "value": null
+        },
+        {
+          "id": 1900001732994,
+          "value": null
+        },
+        {
+          "id": 4419805578386,
+          "value": null
+        },
+        {
+          "id": 4419809436178,
+          "value": null
+        },
+        {
+          "id": 4427524267922,
+          "value": false
+        },
+        {
+          "id": 4775204328722,
+          "value": null
+        },
+        {
+          "id": 4792652564242,
+          "value": null
+        },
+        {
+          "id": 5031792994450,
+          "value": null
+        },
+        {
+          "id": 5080381154706,
+          "value": null
+        },
+        {
+          "id": 5080419542802,
+          "value": null
+        },
+        {
+          "id": 5080426575506,
+          "value": null
+        },
+        {
+          "id": 5325840861586,
+          "value": null
+        },
+        {
+          "id": 5325847086994,
+          "value": null
+        },
+        {
+          "id": 5325847087378,
+          "value": null
+        },
+        {
+          "id": 5325869018514,
+          "value": null
+        },
+        {
+          "id": 5325877864850,
+          "value": null
+        },
+        {
+          "id": 5326015294866,
+          "value": null
+        },
+        {
+          "id": 5326015295122,
+          "value": null
+        },
+        {
+          "id": 5326015295762,
+          "value": null
+        },
+        {
+          "id": 5326022814098,
+          "value": null
+        },
+        {
+          "id": 5326022814738,
+          "value": null
+        },
+        {
+          "id": 5366110490386,
+          "value": null
+        },
+        {
+          "id": 5366125338258,
+          "value": null
+        },
+        {
+          "id": 5366350625682,
+          "value": null
+        },
+        {
+          "id": 5370122052882,
+          "value": null
+        },
+        {
+          "id": 5370135990802,
+          "value": null
+        },
+        {
+          "id": 5528382389778,
+          "value": null
+        },
+        {
+          "id": 5528394501138,
+          "value": null
+        },
+        {
+          "id": 5545883980562,
+          "value": null
+        },
+        {
+          "id": 5546111529234,
+          "value": null
+        },
+        {
+          "id": 5546127256722,
+          "value": null
+        },
+        {
+          "id": 5577095407506,
+          "value": null
+        },
+        {
+          "id": 5577112038034,
+          "value": null
+        },
+        {
+          "id": 5579031763730,
+          "value": null
+        },
+        {
+          "id": 5607554358034,
+          "value": null
+        },
+        {
+          "id": 5702859964178,
+          "value": null
+        },
+        {
+          "id": 5725499626258,
+          "value": null
+        },
+        {
+          "id": 5725499626642,
+          "value": null
+        },
+        {
+          "id": 5725529406098,
+          "value": null
+        },
+        {
+          "id": 5725542869138,
+          "value": null
+        },
+        {
+          "id": 5725560897682,
+          "value": null
+        },
+        {
+          "id": 5766031211154,
+          "value": null
+        },
+        {
+          "id": 5877336790546,
+          "value": null
+        },
+        {
+          "id": 5934972822546,
+          "value": null
+        },
+        {
+          "id": 5979585670546,
+          "value": false
+        },
+        {
+          "id": 6137045367954,
+          "value": null
+        },
+        {
+          "id": 6293197845010,
+          "value": null
+        },
+        {
+          "id": 6293483315346,
+          "value": null
+        },
+        {
+          "id": 6301479644306,
+          "value": null
+        },
+        {
+          "id": 6451556407058,
+          "value": null
+        },
+        {
+          "id": 6487257169170,
+          "value": null
+        },
+        {
+          "id": 6554756314258,
+          "value": null
+        },
+        {
+          "id": 6800416714002,
+          "value": null
+        },
+        {
+          "id": 6839676072850,
+          "value": null
+        },
+        {
+          "id": 6861661123090,
+          "value": null
+        },
+        {
+          "id": 7259029569298,
+          "value": null
+        },
+        {
+          "id": 7259030037650,
+          "value": null
+        },
+        {
+          "id": 7259038947602,
+          "value": null
+        },
+        {
+          "id": 7259039904146,
+          "value": null
+        },
+        {
+          "id": 7259067522450,
+          "value": null
+        },
+        {
+          "id": 7259083092626,
+          "value": null
+        },
+        {
+          "id": 7259108456850,
+          "value": null
+        },
+        {
+          "id": 7259114887698,
+          "value": null
+        },
+        {
+          "id": 7259127112978,
+          "value": null
+        },
+        {
+          "id": 7259174888850,
+          "value": null
+        },
+        {
+          "id": 7408146303250,
+          "value": null
+        },
+        {
+          "id": 7597934336402,
+          "value": null
+        },
+        {
+          "id": 7659976124690,
+          "value": null
+        },
+        {
+          "id": 7659977814930,
+          "value": null
+        },
+        {
+          "id": 7732510584338,
+          "value": null
+        },
+        {
+          "id": 7732524566802,
+          "value": null
+        },
+        {
+          "id": 7732961616146,
+          "value": null
+        },
+        {
+          "id": 8202366181522,
+          "value": false
+        },
+        {
+          "id": 8202565143826,
+          "value": null
+        },
+        {
+          "id": 8385978181650,
+          "value": "de"
+        },
+        {
+          "id": 8399394009746,
+          "value": null
+        },
+        {
+          "id": 8962468753554,
+          "value": false
+        },
+        {
+          "id": 9044079644690,
+          "value": false
+        },
+        {
+          "id": 10007446885394,
+          "value": false
+        },
+        {
+          "id": 10106603984530,
+          "value": null
+        },
+        {
+          "id": 10409491319826,
+          "value": null
+        },
+        {
+          "id": 10409552954130,
+          "value": null
+        },
+        {
+          "id": 10690594926994,
+          "value": null
+        },
+        {
+          "id": 10690611017106,
+          "value": null
+        },
+        {
+          "id": 11407136335122,
+          "value": null
+        },
+        {
+          "id": 12478157056274,
+          "value": null
+        },
+        {
+          "id": 12480713312402,
+          "value": null
+        },
+        {
+          "id": 12706413872914,
+          "value": null
+        },
+        {
+          "id": 12709067709458,
+          "value": null
+        },
+        {
+          "id": 12709084226962,
+          "value": null
+        },
+        {
+          "id": 12715803681810,
+          "value": null
+        },
+        {
+          "id": 12778761726994,
+          "value": null
+        },
+        {
+          "id": 13802770437394,
+          "value": null
+        },
+        {
+          "id": 13802800310546,
+          "value": false
+        },
+        {
+          "id": 13803815788946,
+          "value": null
+        },
+        {
+          "id": 13984840697234,
+          "value": null
+        },
+        {
+          "id": 13984871235474,
+          "value": null
+        },
+        {
+          "id": 13984885130642,
+          "value": null
+        },
+        {
+          "id": 14150549742610,
+          "value": null
+        },
+        {
+          "id": 14150567584402,
+          "value": null
+        },
+        {
+          "id": 16334940921490,
+          "value": null
+        },
+        {
+          "id": 18319611095186,
+          "value": null
+        },
+        {
+          "id": 18319614191762,
+          "value": null
+        },
+        {
+          "id": 18319619432338,
+          "value": null
+        },
+        {
+          "id": 18319624089746,
+          "value": null
+        },
+        {
+          "id": 18319629265170,
+          "value": null
+        },
+        {
+          "id": 18321513303826,
+          "value": null
+        },
+        {
+          "id": 18321538227730,
+          "value": null
+        },
+        {
+          "id": 18321539873170,
+          "value": null
+        },
+        {
+          "id": 18321559846930,
+          "value": null
+        },
+        {
+          "id": 18321569709458,
+          "value": null
+        },
+        {
+          "id": 18321571292434,
+          "value": null
+        },
+        {
+          "id": 19158391221138,
+          "value": null
+        },
+        {
+          "id": 23992919960466,
+          "value": null
+        },
+        {
+          "id": 23993018154002,
+          "value": null
+        },
+        {
+          "id": 23993099605394,
+          "value": null
+        },
+        {
+          "id": 25693490512018,
+          "value": false
+        },
+        {
+          "id": 29364225382290,
+          "value": null
+        },
+        {
+          "id": 30824246501778,
+          "value": null
+        },
+        {
+          "id": 34295413322642,
+          "value": null
+        },
+        {
+          "id": 34295422752274,
+          "value": null
+        },
+        {
+          "id": 34295438629010,
+          "value": null
+        },
+        {
+          "id": 34295471959442,
+          "value": null
+        },
+        {
+          "id": 34295490197522,
+          "value": null
+        },
+        {
+          "id": 34295518379666,
+          "value": null
+        },
+        {
+          "id": 34295525485714,
+          "value": null
+        }
+      ],
+      "followup_ids": [],
+      "ticket_form_id": 360000075612,
+      "brand_id": 360000256192,
+      "allow_channelback": false,
+      "allow_attachments": true,
+      "from_messaging_channel": false,
+      "support_type": "agent"
+    },
+    {
+      "url": "https://con-leafworks2.zendesk.com/api/v2/tickets/1787.json",
+      "id": 1787,
+      "external_id": null,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {
+
+          },
+          "to": {
+
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2023-08-22T13:52:47Z",
+      "updated_at": "2024-07-15T18:56:11Z",
+      "generated_timestamp": 1721069771,
+      "type": null,
+      "subject": "My printer doesn't work",
+      "raw_subject": "My printer doesn't work",
+      "description": "My printer doesn't work. Can you fix it?",
+      "priority": "normal",
+      "status": "pending",
+      "recipient": null,
+      "requester_id": 1902904595334,
+      "submitter_id": 378489066919,
+      "assignee_id": null,
+      "organization_id": 360028322272,
+      "group_id": 360007443019,
+      "collaborator_ids": [13226706601490, 13226804102802],
+      "follower_ids": [],
+      "email_cc_ids": [13226706601490, 13226804102802],
+      "forum_topic_id": null,
+      "problem_id": null,
+      "has_incidents": false,
+      "is_public": true,
+      "due_at": null,
+      "tags": [
+        "attachments_yes",
+        "locale_done"
+      ],
+      "custom_fields": [
+        {
+          "id": 360005920512,
+          "value": null
+        },
+        {
+          "id": 360014171231,
+          "value": null
+        },
+        {
+          "id": 360014546351,
+          "value": null
+        },
+        {
+          "id": 360014546371,
+          "value": null
+        },
+        {
+          "id": 360019711620,
+          "value": null
+        },
+        {
+          "id": 360019800120,
+          "value": null
+        },
+        {
+          "id": 360019844179,
+          "value": null
+        },
+        {
+          "id": 360019968980,
+          "value": null
+        },
+        {
+          "id": 360019969000,
+          "value": null
+        },
+        {
+          "id": 360019969100,
+          "value": null
+        },
+        {
+          "id": 360020078660,
+          "value": null
+        },
+        {
+          "id": 360020078680,
+          "value": null
+        },
+        {
+          "id": 360020097979,
+          "value": null
+        },
+        {
+          "id": 360020280879,
+          "value": null
+        },
+        {
+          "id": 360020280979,
+          "value": null
+        },
+        {
+          "id": 360020690199,
+          "value": null
+        },
+        {
+          "id": 360020726419,
+          "value": null
+        },
+        {
+          "id": 360021011239,
+          "value": null
+        },
+        {
+          "id": 360021056639,
+          "value": null
+        },
+        {
+          "id": 360021253780,
+          "value": null
+        },
+        {
+          "id": 360022621700,
+          "value": null
+        },
+        {
+          "id": 360022621740,
+          "value": null
+        },
+        {
+          "id": 360022621760,
+          "value": false
+        },
+        {
+          "id": 360022644740,
+          "value": null
+        },
+        {
+          "id": 360022644760,
+          "value": null
+        },
+        {
+          "id": 360022729279,
+          "value": null
+        },
+        {
+          "id": 360022750659,
+          "value": null
+        },
+        {
+          "id": 360022750679,
+          "value": null
+        },
+        {
+          "id": 360022814899,
+          "value": null
+        },
+        {
+          "id": 360023046100,
+          "value": null
+        },
+        {
+          "id": 360023046120,
+          "value": null
+        },
+        {
+          "id": 360023046140,
+          "value": null
+        },
+        {
+          "id": 360023147759,
+          "value": null
+        },
+        {
+          "id": 360023148079,
+          "value": null
+        },
+        {
+          "id": 360023373540,
+          "value": null
+        },
+        {
+          "id": 1900000551814,
+          "value": null
+        },
+        {
+          "id": 1900000551854,
+          "value": null
+        },
+        {
+          "id": 1900000551874,
+          "value": null
+        },
+        {
+          "id": 1900000623674,
+          "value": null
+        },
+        {
+          "id": 1900000624394,
+          "value": null
+        },
+        {
+          "id": 1900000950474,
+          "value": false
+        },
+        {
+          "id": 1900001280454,
+          "value": null
+        },
+        {
+          "id": 1900001632114,
+          "value": null
+        },
+        {
+          "id": 1900001732994,
+          "value": null
+        },
+        {
+          "id": 4419805578386,
+          "value": null
+        },
+        {
+          "id": 4419809436178,
+          "value": null
+        },
+        {
+          "id": 4427524267922,
+          "value": false
+        },
+        {
+          "id": 4775204328722,
+          "value": null
+        },
+        {
+          "id": 4792652564242,
+          "value": null
+        },
+        {
+          "id": 5031792994450,
+          "value": null
+        },
+        {
+          "id": 5080381154706,
+          "value": null
+        },
+        {
+          "id": 5080419542802,
+          "value": null
+        },
+        {
+          "id": 5080426575506,
+          "value": null
+        },
+        {
+          "id": 5325840861586,
+          "value": null
+        },
+        {
+          "id": 5325847086994,
+          "value": null
+        },
+        {
+          "id": 5325847087378,
+          "value": null
+        },
+        {
+          "id": 5325869018514,
+          "value": null
+        },
+        {
+          "id": 5325877864850,
+          "value": null
+        },
+        {
+          "id": 5326015294866,
+          "value": null
+        },
+        {
+          "id": 5326015295122,
+          "value": null
+        },
+        {
+          "id": 5326015295762,
+          "value": null
+        },
+        {
+          "id": 5326022814098,
+          "value": null
+        },
+        {
+          "id": 5326022814738,
+          "value": null
+        },
+        {
+          "id": 5366110490386,
+          "value": null
+        },
+        {
+          "id": 5366125338258,
+          "value": null
+        },
+        {
+          "id": 5366350625682,
+          "value": null
+        },
+        {
+          "id": 5370122052882,
+          "value": null
+        },
+        {
+          "id": 5370135990802,
+          "value": null
+        },
+        {
+          "id": 5528382389778,
+          "value": null
+        },
+        {
+          "id": 5528394501138,
+          "value": null
+        },
+        {
+          "id": 5545883980562,
+          "value": null
+        },
+        {
+          "id": 5546111529234,
+          "value": null
+        },
+        {
+          "id": 5546127256722,
+          "value": null
+        },
+        {
+          "id": 5577095407506,
+          "value": null
+        },
+        {
+          "id": 5577112038034,
+          "value": null
+        },
+        {
+          "id": 5579031763730,
+          "value": null
+        },
+        {
+          "id": 5607554358034,
+          "value": null
+        },
+        {
+          "id": 5702859964178,
+          "value": null
+        },
+        {
+          "id": 5725499626258,
+          "value": null
+        },
+        {
+          "id": 5725499626642,
+          "value": null
+        },
+        {
+          "id": 5725529406098,
+          "value": null
+        },
+        {
+          "id": 5725542869138,
+          "value": null
+        },
+        {
+          "id": 5725560897682,
+          "value": null
+        },
+        {
+          "id": 5766031211154,
+          "value": null
+        },
+        {
+          "id": 5877336790546,
+          "value": null
+        },
+        {
+          "id": 5934972822546,
+          "value": null
+        },
+        {
+          "id": 5979585670546,
+          "value": false
+        },
+        {
+          "id": 6137045367954,
+          "value": null
+        },
+        {
+          "id": 6293197845010,
+          "value": null
+        },
+        {
+          "id": 6293483315346,
+          "value": null
+        },
+        {
+          "id": 6301479644306,
+          "value": null
+        },
+        {
+          "id": 6451556407058,
+          "value": null
+        },
+        {
+          "id": 6487257169170,
+          "value": null
+        },
+        {
+          "id": 6554756314258,
+          "value": null
+        },
+        {
+          "id": 6800416714002,
+          "value": null
+        },
+        {
+          "id": 6839676072850,
+          "value": null
+        },
+        {
+          "id": 6861661123090,
+          "value": null
+        },
+        {
+          "id": 7259029569298,
+          "value": null
+        },
+        {
+          "id": 7259030037650,
+          "value": null
+        },
+        {
+          "id": 7259038947602,
+          "value": null
+        },
+        {
+          "id": 7259039904146,
+          "value": null
+        },
+        {
+          "id": 7259067522450,
+          "value": null
+        },
+        {
+          "id": 7259083092626,
+          "value": null
+        },
+        {
+          "id": 7259108456850,
+          "value": null
+        },
+        {
+          "id": 7259114887698,
+          "value": null
+        },
+        {
+          "id": 7259127112978,
+          "value": null
+        },
+        {
+          "id": 7259174888850,
+          "value": null
+        },
+        {
+          "id": 7408146303250,
+          "value": null
+        },
+        {
+          "id": 7597934336402,
+          "value": null
+        },
+        {
+          "id": 7659976124690,
+          "value": null
+        },
+        {
+          "id": 7659977814930,
+          "value": null
+        },
+        {
+          "id": 7732510584338,
+          "value": null
+        },
+        {
+          "id": 7732524566802,
+          "value": null
+        },
+        {
+          "id": 7732961616146,
+          "value": null
+        },
+        {
+          "id": 8202366181522,
+          "value": false
+        },
+        {
+          "id": 8202565143826,
+          "value": null
+        },
+        {
+          "id": 8385978181650,
+          "value": "de"
+        },
+        {
+          "id": 8399394009746,
+          "value": null
+        },
+        {
+          "id": 8962468753554,
+          "value": false
+        },
+        {
+          "id": 9044079644690,
+          "value": false
+        },
+        {
+          "id": 10007446885394,
+          "value": false
+        },
+        {
+          "id": 10106603984530,
+          "value": null
+        },
+        {
+          "id": 10409491319826,
+          "value": null
+        },
+        {
+          "id": 10409552954130,
+          "value": null
+        },
+        {
+          "id": 10690594926994,
+          "value": null
+        },
+        {
+          "id": 10690611017106,
+          "value": null
+        },
+        {
+          "id": 11407136335122,
+          "value": null
+        },
+        {
+          "id": 12478157056274,
+          "value": null
+        },
+        {
+          "id": 12480713312402,
+          "value": null
+        },
+        {
+          "id": 12706413872914,
+          "value": null
+        },
+        {
+          "id": 12709067709458,
+          "value": null
+        },
+        {
+          "id": 12709084226962,
+          "value": null
+        },
+        {
+          "id": 12715803681810,
+          "value": null
+        },
+        {
+          "id": 12778761726994,
+          "value": null
+        },
+        {
+          "id": 13802770437394,
+          "value": null
+        },
+        {
+          "id": 13802800310546,
+          "value": false
+        },
+        {
+          "id": 13803815788946,
+          "value": null
+        },
+        {
+          "id": 13984840697234,
+          "value": null
+        },
+        {
+          "id": 13984871235474,
+          "value": null
+        },
+        {
+          "id": 13984885130642,
+          "value": null
+        },
+        {
+          "id": 14150549742610,
+          "value": null
+        },
+        {
+          "id": 14150567584402,
+          "value": null
+        },
+        {
+          "id": 16334940921490,
+          "value": null
+        },
+        {
+          "id": 18319611095186,
+          "value": null
+        },
+        {
+          "id": 18319614191762,
+          "value": null
+        },
+        {
+          "id": 18319619432338,
+          "value": null
+        },
+        {
+          "id": 18319624089746,
+          "value": null
+        },
+        {
+          "id": 18319629265170,
+          "value": null
+        },
+        {
+          "id": 18321513303826,
+          "value": null
+        },
+        {
+          "id": 18321538227730,
+          "value": null
+        },
+        {
+          "id": 18321539873170,
+          "value": null
+        },
+        {
+          "id": 18321559846930,
+          "value": null
+        },
+        {
+          "id": 18321569709458,
+          "value": null
+        },
+        {
+          "id": 18321571292434,
+          "value": null
+        },
+        {
+          "id": 19158391221138,
+          "value": null
+        },
+        {
+          "id": 23992919960466,
+          "value": null
+        },
+        {
+          "id": 23993018154002,
+          "value": null
+        },
+        {
+          "id": 23993099605394,
+          "value": null
+        },
+        {
+          "id": 25693490512018,
+          "value": false
+        },
+        {
+          "id": 29364225382290,
+          "value": null
+        },
+        {
+          "id": 30824246501778,
+          "value": null
+        },
+        {
+          "id": 34295413322642,
+          "value": null
+        },
+        {
+          "id": 34295422752274,
+          "value": null
+        },
+        {
+          "id": 34295438629010,
+          "value": null
+        },
+        {
+          "id": 34295471959442,
+          "value": null
+        },
+        {
+          "id": 34295490197522,
+          "value": null
+        },
+        {
+          "id": 34295518379666,
+          "value": null
+        },
+        {
+          "id": 34295525485714,
+          "value": null
+        }
+      ],
+      "satisfaction_rating": {
+        "score": "unoffered"
+      },
+      "sharing_agreement_ids": [],
+      "custom_status_id": 1900001422254,
+      "encoded_id": "XY3XKL-2M53G",
+      "fields": [
+        {
+          "id": 360005920512,
+          "value": null
+        },
+        {
+          "id": 360014171231,
+          "value": null
+        },
+        {
+          "id": 360014546351,
+          "value": null
+        },
+        {
+          "id": 360014546371,
+          "value": null
+        },
+        {
+          "id": 360019711620,
+          "value": null
+        },
+        {
+          "id": 360019800120,
+          "value": null
+        },
+        {
+          "id": 360019844179,
+          "value": null
+        },
+        {
+          "id": 360019968980,
+          "value": null
+        },
+        {
+          "id": 360019969000,
+          "value": null
+        },
+        {
+          "id": 360019969100,
+          "value": null
+        },
+        {
+          "id": 360020078660,
+          "value": null
+        },
+        {
+          "id": 360020078680,
+          "value": null
+        },
+        {
+          "id": 360020097979,
+          "value": null
+        },
+        {
+          "id": 360020280879,
+          "value": null
+        },
+        {
+          "id": 360020280979,
+          "value": null
+        },
+        {
+          "id": 360020690199,
+          "value": null
+        },
+        {
+          "id": 360020726419,
+          "value": null
+        },
+        {
+          "id": 360021011239,
+          "value": null
+        },
+        {
+          "id": 360021056639,
+          "value": null
+        },
+        {
+          "id": 360021253780,
+          "value": null
+        },
+        {
+          "id": 360022621700,
+          "value": null
+        },
+        {
+          "id": 360022621740,
+          "value": null
+        },
+        {
+          "id": 360022621760,
+          "value": false
+        },
+        {
+          "id": 360022644740,
+          "value": null
+        },
+        {
+          "id": 360022644760,
+          "value": null
+        },
+        {
+          "id": 360022729279,
+          "value": null
+        },
+        {
+          "id": 360022750659,
+          "value": null
+        },
+        {
+          "id": 360022750679,
+          "value": null
+        },
+        {
+          "id": 360022814899,
+          "value": null
+        },
+        {
+          "id": 360023046100,
+          "value": null
+        },
+        {
+          "id": 360023046120,
+          "value": null
+        },
+        {
+          "id": 360023046140,
+          "value": null
+        },
+        {
+          "id": 360023147759,
+          "value": null
+        },
+        {
+          "id": 360023148079,
+          "value": null
+        },
+        {
+          "id": 360023373540,
+          "value": null
+        },
+        {
+          "id": 1900000551814,
+          "value": null
+        },
+        {
+          "id": 1900000551854,
+          "value": null
+        },
+        {
+          "id": 1900000551874,
+          "value": null
+        },
+        {
+          "id": 1900000623674,
+          "value": null
+        },
+        {
+          "id": 1900000624394,
+          "value": null
+        },
+        {
+          "id": 1900000950474,
+          "value": false
+        },
+        {
+          "id": 1900001280454,
+          "value": null
+        },
+        {
+          "id": 1900001632114,
+          "value": null
+        },
+        {
+          "id": 1900001732994,
+          "value": null
+        },
+        {
+          "id": 4419805578386,
+          "value": null
+        },
+        {
+          "id": 4419809436178,
+          "value": null
+        },
+        {
+          "id": 4427524267922,
+          "value": false
+        },
+        {
+          "id": 4775204328722,
+          "value": null
+        },
+        {
+          "id": 4792652564242,
+          "value": null
+        },
+        {
+          "id": 5031792994450,
+          "value": null
+        },
+        {
+          "id": 5080381154706,
+          "value": null
+        },
+        {
+          "id": 5080419542802,
+          "value": null
+        },
+        {
+          "id": 5080426575506,
+          "value": null
+        },
+        {
+          "id": 5325840861586,
+          "value": null
+        },
+        {
+          "id": 5325847086994,
+          "value": null
+        },
+        {
+          "id": 5325847087378,
+          "value": null
+        },
+        {
+          "id": 5325869018514,
+          "value": null
+        },
+        {
+          "id": 5325877864850,
+          "value": null
+        },
+        {
+          "id": 5326015294866,
+          "value": null
+        },
+        {
+          "id": 5326015295122,
+          "value": null
+        },
+        {
+          "id": 5326015295762,
+          "value": null
+        },
+        {
+          "id": 5326022814098,
+          "value": null
+        },
+        {
+          "id": 5326022814738,
+          "value": null
+        },
+        {
+          "id": 5366110490386,
+          "value": null
+        },
+        {
+          "id": 5366125338258,
+          "value": null
+        },
+        {
+          "id": 5366350625682,
+          "value": null
+        },
+        {
+          "id": 5370122052882,
+          "value": null
+        },
+        {
+          "id": 5370135990802,
+          "value": null
+        },
+        {
+          "id": 5528382389778,
+          "value": null
+        },
+        {
+          "id": 5528394501138,
+          "value": null
+        },
+        {
+          "id": 5545883980562,
+          "value": null
+        },
+        {
+          "id": 5546111529234,
+          "value": null
+        },
+        {
+          "id": 5546127256722,
+          "value": null
+        },
+        {
+          "id": 5577095407506,
+          "value": null
+        },
+        {
+          "id": 5577112038034,
+          "value": null
+        },
+        {
+          "id": 5579031763730,
+          "value": null
+        },
+        {
+          "id": 5607554358034,
+          "value": null
+        },
+        {
+          "id": 5702859964178,
+          "value": null
+        },
+        {
+          "id": 5725499626258,
+          "value": null
+        },
+        {
+          "id": 5725499626642,
+          "value": null
+        },
+        {
+          "id": 5725529406098,
+          "value": null
+        },
+        {
+          "id": 5725542869138,
+          "value": null
+        },
+        {
+          "id": 5725560897682,
+          "value": null
+        },
+        {
+          "id": 5766031211154,
+          "value": null
+        },
+        {
+          "id": 5877336790546,
+          "value": null
+        },
+        {
+          "id": 5934972822546,
+          "value": null
+        },
+        {
+          "id": 5979585670546,
+          "value": false
+        },
+        {
+          "id": 6137045367954,
+          "value": null
+        },
+        {
+          "id": 6293197845010,
+          "value": null
+        },
+        {
+          "id": 6293483315346,
+          "value": null
+        },
+        {
+          "id": 6301479644306,
+          "value": null
+        },
+        {
+          "id": 6451556407058,
+          "value": null
+        },
+        {
+          "id": 6487257169170,
+          "value": null
+        },
+        {
+          "id": 6554756314258,
+          "value": null
+        },
+        {
+          "id": 6800416714002,
+          "value": null
+        },
+        {
+          "id": 6839676072850,
+          "value": null
+        },
+        {
+          "id": 6861661123090,
+          "value": null
+        },
+        {
+          "id": 7259029569298,
+          "value": null
+        },
+        {
+          "id": 7259030037650,
+          "value": null
+        },
+        {
+          "id": 7259038947602,
+          "value": null
+        },
+        {
+          "id": 7259039904146,
+          "value": null
+        },
+        {
+          "id": 7259067522450,
+          "value": null
+        },
+        {
+          "id": 7259083092626,
+          "value": null
+        },
+        {
+          "id": 7259108456850,
+          "value": null
+        },
+        {
+          "id": 7259114887698,
+          "value": null
+        },
+        {
+          "id": 7259127112978,
+          "value": null
+        },
+        {
+          "id": 7259174888850,
+          "value": null
+        },
+        {
+          "id": 7408146303250,
+          "value": null
+        },
+        {
+          "id": 7597934336402,
+          "value": null
+        },
+        {
+          "id": 7659976124690,
+          "value": null
+        },
+        {
+          "id": 7659977814930,
+          "value": null
+        },
+        {
+          "id": 7732510584338,
+          "value": null
+        },
+        {
+          "id": 7732524566802,
+          "value": null
+        },
+        {
+          "id": 7732961616146,
+          "value": null
+        },
+        {
+          "id": 8202366181522,
+          "value": false
+        },
+        {
+          "id": 8202565143826,
+          "value": null
+        },
+        {
+          "id": 8385978181650,
+          "value": "de"
+        },
+        {
+          "id": 8399394009746,
+          "value": null
+        },
+        {
+          "id": 8962468753554,
+          "value": false
+        },
+        {
+          "id": 9044079644690,
+          "value": false
+        },
+        {
+          "id": 10007446885394,
+          "value": false
+        },
+        {
+          "id": 10106603984530,
+          "value": null
+        },
+        {
+          "id": 10409491319826,
+          "value": null
+        },
+        {
+          "id": 10409552954130,
+          "value": null
+        },
+        {
+          "id": 10690594926994,
+          "value": null
+        },
+        {
+          "id": 10690611017106,
+          "value": null
+        },
+        {
+          "id": 11407136335122,
+          "value": null
+        },
+        {
+          "id": 12478157056274,
+          "value": null
+        },
+        {
+          "id": 12480713312402,
+          "value": null
+        },
+        {
+          "id": 12706413872914,
+          "value": null
+        },
+        {
+          "id": 12709067709458,
+          "value": null
+        },
+        {
+          "id": 12709084226962,
+          "value": null
+        },
+        {
+          "id": 12715803681810,
+          "value": null
+        },
+        {
+          "id": 12778761726994,
+          "value": null
+        },
+        {
+          "id": 13802770437394,
+          "value": null
+        },
+        {
+          "id": 13802800310546,
+          "value": false
+        },
+        {
+          "id": 13803815788946,
+          "value": null
+        },
+        {
+          "id": 13984840697234,
+          "value": null
+        },
+        {
+          "id": 13984871235474,
+          "value": null
+        },
+        {
+          "id": 13984885130642,
+          "value": null
+        },
+        {
+          "id": 14150549742610,
+          "value": null
+        },
+        {
+          "id": 14150567584402,
+          "value": null
+        },
+        {
+          "id": 16334940921490,
+          "value": null
+        },
+        {
+          "id": 18319611095186,
+          "value": null
+        },
+        {
+          "id": 18319614191762,
+          "value": null
+        },
+        {
+          "id": 18319619432338,
+          "value": null
+        },
+        {
+          "id": 18319624089746,
+          "value": null
+        },
+        {
+          "id": 18319629265170,
+          "value": null
+        },
+        {
+          "id": 18321513303826,
+          "value": null
+        },
+        {
+          "id": 18321538227730,
+          "value": null
+        },
+        {
+          "id": 18321539873170,
+          "value": null
+        },
+        {
+          "id": 18321559846930,
+          "value": null
+        },
+        {
+          "id": 18321569709458,
+          "value": null
+        },
+        {
+          "id": 18321571292434,
+          "value": null
+        },
+        {
+          "id": 19158391221138,
+          "value": null
+        },
+        {
+          "id": 23992919960466,
+          "value": null
+        },
+        {
+          "id": 23993018154002,
+          "value": null
+        },
+        {
+          "id": 23993099605394,
+          "value": null
+        },
+        {
+          "id": 25693490512018,
+          "value": false
+        },
+        {
+          "id": 29364225382290,
+          "value": null
+        },
+        {
+          "id": 30824246501778,
+          "value": null
+        },
+        {
+          "id": 34295413322642,
+          "value": null
+        },
+        {
+          "id": 34295422752274,
+          "value": null
+        },
+        {
+          "id": 34295438629010,
+          "value": null
+        },
+        {
+          "id": 34295471959442,
+          "value": null
+        },
+        {
+          "id": 34295490197522,
+          "value": null
+        },
+        {
+          "id": 34295518379666,
+          "value": null
+        },
+        {
+          "id": 34295525485714,
+          "value": null
+        }
+      ],
+      "followup_ids": [],
+      "ticket_form_id": 360000075612,
+      "brand_id": 360000256192,
+      "allow_channelback": false,
+      "allow_attachments": true,
+      "from_messaging_channel": false,
+      "support_type": "agent"
+    }
+  ],
+  "next_page": null,
+  "previous_page": null,
+  "count": 2
+}
