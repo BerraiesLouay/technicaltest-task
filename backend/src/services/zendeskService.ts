@@ -29,7 +29,7 @@ export async function fetchCCdTickets() {
 
   }
   console.log('fetching updated data, timeout exceeded');
-  const url = `${BASE_URL}/users/${USER_ID}/tickets/ccd.json?per_page=100`;
+  const url = `${BASE_URL}/users/${USER_ID}/tickets/ccd`;
  for (let attempt = 1; attempt <= max_retries; attempt++) {
     try {
       console.log(`Fetching from Zendesk (Attempt ${attempt})...`);
@@ -65,7 +65,7 @@ export async function fetchCCdTickets() {
 }   
 }
 export async function removeUserFromCC(ticketId: string) {
-  const url = `${BASE_URL}/tickets/${ticketId}.json`;
+  const url = `${BASE_URL}/tickets/${ticketId}`;
   const payload = {
     ticket: {
       email_ccs: [
