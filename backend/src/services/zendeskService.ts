@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
 import { getDb } from '../db.js';
+import type { TicketDTO } from '../dto/ticketsdto.js';
 
 dotenv.config();
 
@@ -24,7 +25,8 @@ export async function fetchCCdTickets() {
 
   if (cachedRow && (Date.now() - cachedRow.last_fetched < cacheLimit)) {
     console.log('Data is still fresh, returning from cache');
-    return JSON.parse(cachedRow.data);
+    return JSON.parse(cachedRow.data) as TicketDTO[];
+
   }
   console.log('fetching updated data, timeout exceeded');
   const url = `${BASE_URL}/users/${USER_ID}/tickets/ccd.json?per_page=100`;
@@ -35,7 +37,15 @@ export async function fetchCCdTickets() {
       if (!response.ok) {
         throw new Error(`Zendesk API error: ${response.status}`);
       }
-  const tickets = await response.json();
+  const data = await response.json();
+  const rawTickets = data.tickets || [];
+  const tickets: TicketDTO[] = rawTickets.map((t: any) => ({
+        id: t.id,
+        status: t.status,
+        subject: t.subject,
+        priority: t.priority,
+        created_at: t.created_at
+      }));
   await db.run(
     'INSERT OR REPLACE INTO ticket_cache (id, data, last_fetched) VALUES (?, ?, ?)',
     ['cached_list', JSON.stringify(tickets), Date.now()]
