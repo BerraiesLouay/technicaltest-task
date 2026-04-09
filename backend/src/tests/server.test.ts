@@ -1,5 +1,5 @@
 const request = require('supertest');
-const serverImport = require('../server.ts');
+const serverImport = require('../controllers/server.ts');
 const app = serverImport.default || serverImport; 
 // Supertest crashed because an object isn't a server, so we export the app instance directly from server.ts
 

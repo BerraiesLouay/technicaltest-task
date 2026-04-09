@@ -22,7 +22,7 @@ describe('fetchCCdTickets', () => {
     // Mock fetch
     global.fetch = jest.fn().mockResolvedValue({
       ok: true,
-      json: jest.fn().mockResolvedValue([{ id: 1, subject: 'Test ticket' }])
+      json: jest.fn().mockResolvedValue({ tickets: [{ id: 1, subject: 'Test ticket' }] })
     });
 
     const tickets = await fetchCCdTickets();
@@ -67,13 +67,13 @@ describe('removeUserFromCC', () => {
 
     expect(result).toBe(true);
     expect(global.fetch).toHaveBeenCalledWith(
-      expect.stringContaining('tickets/101.json'),
+      expect.stringContaining('https://con-leafworks2.zendesk.com/api/v2/tickets/ticket-101'),
       expect.objectContaining({ method: 'PUT' })
     );
     // Verify cache deletion call
     expect(db.run).toHaveBeenCalledWith(
       expect.stringContaining('DELETE FROM ticket_cache'),
-      ['cc_tickets_cache']
+      ['cached_list']
     );
   });
 });
