@@ -2,10 +2,24 @@
 
 This is for the technical test purpose.
 
-## Installation
+## Docker
+
+
 
 ### Prerequisites
-- Node.js (v20.20.)
+- Node.js (v20.20.2)
+- Docker (optional, for fast setup)
+```bash
+cd backend
+npm install or npm ci
+```
+
+### Docker Quick Start
+
+Ensure your .env file is configured in the backend directory.
+```bash
+docker-compose up --build
+```
 
 ### Setup
 
@@ -33,6 +47,13 @@ npm install
 ```bash
 npm run dev
 ```
+## Unit testing
+
+```bash
+npm test 
+```
+tests are just simulating happy path (TODOS) 
+Coverage 75.24
 
 ## Environment Variables
 
@@ -48,3 +69,9 @@ TARGET_USER_ID=
 - `ZENDESK_BASE_URL` - Your Zendesk API base URL
 - `ZENDESK_OAUTH_TOKEN` - Your Zendesk OAuth token for API authentication
 - `TARGET_USER_ID` - The Zendesk user ID to fetch tickets for
+
+### Perspectives
+
+Invest more time on the UI
+Generate and Scan SBOM to be safe in term of vulnerabilities & packages
+Implement same retry process for the delete API ( done for the display)
