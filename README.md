@@ -12,8 +12,8 @@ This is for the technical test purpose.
 1. Install backend dependencies:
 ```bash
 cd backend
-npm install
-npm ci
+npm install or npm ci
+
 ```
 
 2. Create a `.env` file in the `backend` directory with the required environment variables:

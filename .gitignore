@@ -10,3 +10,4 @@ logs/
 coverage/
 *.local
 src/assets
+backend/package-lock.json

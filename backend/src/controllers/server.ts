@@ -25,7 +25,7 @@ app.get('/api/tickets', async (req, res) => {
   }
 });
 
-app.post('/api/tickets/:id/remove', async (req, res) => {
+app.put('/api/tickets/:id/remove', async (req, res) => {
   const { id } = req.params;
 
   if (!TARGET_USER_ID) {

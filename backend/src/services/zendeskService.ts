@@ -69,7 +69,7 @@ export async function removeUserFromCC(ticketId: string) {
   const payload = {
     ticket: {
       email_ccs: [
-        { user_id: USER_ID, action: "remove" }
+        { user_id: USER_ID, action: "DELETE" }
       ]
     }
   };
@@ -82,7 +82,7 @@ export async function removeUserFromCC(ticketId: string) {
 
   if (response.ok) {
     const db = await getDb();
-    await db.run('DELETE FROM ticket_cache WHERE id = ?', ['cc_tickets_cache']);
+    await db.run('DELETE FROM ticket_cache WHERE id = ?', ['cached_list']);
   }
   return response.ok;
 }
